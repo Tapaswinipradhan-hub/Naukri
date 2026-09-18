@@ -52,7 +52,7 @@ public class Login extends BasePage{
 		wait.until(ExpectedConditions.visibilityOf(updateResume));
 		updateResume.click();
 		Thread.sleep(3000);
-		StringSelection tapaswinifile=new StringSelection("C:\\Users\\TAPASWINI\\OneDrive\\Desktop\\Selenium\\NaukriAutomation\\CV\\TapaswiniPradhan_Resume.pdf");
+		StringSelection tapaswinifile=new StringSelection("C:\\Users\\TAPASWINI\\OneDrive\\Desktop\\Selenium\\NaukriAutomation\\CV\\TapaswiniPradhan.pdf");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(tapaswinifile, null);
 		Robot robot=new Robot();
 		robot.keyPress(KeyEvent.VK_CONTROL);
